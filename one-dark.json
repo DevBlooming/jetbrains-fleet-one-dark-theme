@@ -1,0 +1,1393 @@
+{
+  "meta": {
+    "theme.name": "One Dark",
+    "theme.kind": "Dark",
+    "theme.version": 7
+  },
+  "colors": {
+    "border": "Gray 50",
+    "fill": "Gray 10",
+    "focusRing": "Blue 40",
+    "shadow": "Black",
+    "text": "Gray 120",
+    "border.@focused": "Blue 70",
+    "fill.@secondary": "Gray 30",
+    "text.@secondary": "Gray 80",
+    "text.@placeholder": "Gray 80",
+    "fill.@dimmed": "Black",
+    "text.@dimmed": "Gray 80",
+    "fill.@disabled": "Gray 50",
+    "text.@disabled": "Gray 70",
+    "fill.@error": "Red 50",
+    "text.@error": "White",
+    "dangerous.text": "Red 70",
+    "fill.@hovered": "Gray 80",
+    "text.@hovered": "Gray 120",
+    "fill.@selected": "Black",
+    "text.@selected": "Blue 80",
+    "fill.@success": "Green 30",
+    "text.@success": "Green 50",
+    "fill.@warning": "Yellow 30",
+    "text.@warning": "White",
+    "popup.itemCell.fill": "Gray 20",
+    "dialog.itemCell.fill": "Gray 20",
+    "tool.itemCell.fill": "Gray 10",
+    "interline.itemCell.fill": "Gray 20",
+    "itemCell.border": "Transparent",
+    "itemCell.fill.@hovered": "Gray 30",
+    "itemCell.text.@hovered": "Gray 120",
+    "itemCell.border.@hovered": "Transparent",
+    "itemCell.fill.@selected": "Gray 50",
+    "itemCell.text.@selected": "Gray 120",
+    "itemCell.border.@selected": "Transparent",
+    "itemCell.border.@focused": "Transparent",
+    "itemCell.fill.@focused.@selected": "Blue 40",
+    "itemCell.text.@focused.@selected": "Gray 120",
+    "button.border": "Transparent",
+    "button.border.@hovered": "Transparent",
+    "button.border.@pressed": "Transparent",
+    "button.fill": "Gray 60",
+    "button.focusRing": "Blue 40",
+    "button.text": "Gray 120",
+    "button.border.@disabled": "Gray 60",
+    "button.fill.@disabled": "Transparent",
+    "button.text.@disabled": "Gray 70",
+    "button.border.@focused": "Blue 80",
+    "button.border.@focused.@hovered": "Blue 80",
+    "button.border.@focused.@pressed": "Blue 80",
+    "button.fill.@hovered": "Gray 50",
+    "button.text.@hovered": "Gray 120",
+    "button.fill.@pressed": "Gray 40",
+    "button.text.@pressed": "Gray 120",
+    "button.fill.@focused": "Gray 60",
+    "button.fill.@disabled.@hovered": "Gray 40",
+    "button.text.@disabled.@hovered": "Gray 120",
+    "button.fill.@disabled.@pressed": "Gray 30",
+    "button.text.@disabled.@pressed": "Gray 120",
+    "button.fill.@focused.@hovered": "Gray 40",
+    "button.fill.@focused.@pressed": "Gray 30",
+    "checkbox.border": "Gray 70",
+    "checkbox.icon": "White",
+    "checkbox.fill": "Gray 20",
+    "checkbox.border.@checked": "Transparent",
+    "checkbox.fill.@checked": "Blue 80",
+    "checkbox.focusRing.@checked.@focused": "Blue 40",
+    "checkbox.border.@disabled": "Gray 60",
+    "checkbox.icon.@disabled": "Gray 80",
+    "checkbox.text.@disabled": "Gray 70",
+    "checkbox.border.@focused": "Blue 70",
+    "checkbox.border.@partial": "Transparent",
+    "checkbox.fill.@hovered": "Gray 20",
+    "checkbox.fill.@partial": "Blue 80",
+    "checkbox.focusRing.@partial.@focused": "Blue 40",
+    "checkbox.border.@checked.@disabled": "Transparent",
+    "checkbox.fill.@checked.@disabled": "Gray 60",
+    "checkbox.border.@checked.@focused": "Blue 30",
+    "checkbox.fill.@checked.@focused": "Blue 80",
+    "checkbox.border.@checked.@hovered": "Transparent",
+    "checkbox.fill.@checked.@hovered": "Blue 80",
+    "checkbox.border.@checked.@pressed": "Transparent",
+    "checkbox.fill.@checked.@pressed": "Blue 80",
+    "checkbox.border.@focused.@hovered": "Blue 70",
+    "checkbox.border.@focused.@pressed": "Blue 70",
+    "checkbox.border.@partial.@disabled": "Transparent",
+    "checkbox.fill.@partial.@disabled": "Gray 60",
+    "checkbox.border.@partial.@focused": "Blue 30",
+    "checkbox.fill.@partial.@focused": "Blue 80",
+    "checkbox.border.@partial.@hovered": "Transparent",
+    "checkbox.fill.@partial.@hovered": "Blue 80",
+    "checkbox.border.@partial.@pressed": "Transparent",
+    "checkbox.fill.@partial.@pressed": "Blue 80",
+    "checkbox.border.@checked.@focused.@hovered": "Blue 30",
+    "checkbox.fill.@checked.@focused.@hovered": "Blue 80",
+    "checkbox.border.@checked.@focused.@pressed": "Blue 30",
+    "checkbox.fill.@checked.@focused.@pressed": "Blue 80",
+    "checkbox.border.@partial.@focused.@hovered": "Blue 30",
+    "checkbox.fill.@partial.@focused.@hovered": "Blue 80",
+    "checkbox.border.@partial.@focused.@pressed": "Blue 30",
+    "checkbox.fill.@partial.@focused.@pressed": "Blue 80",
+    "action.button.fill": "Gray 20",
+    "action.button.border": "Transparent",
+    "action.button.border.@hovered": "Transparent",
+    "action.button.border.@pressed": "Transparent",
+    "action.button.fill.@hovered": "Gray 30",
+    "action.button.fill.@pressed": "Gray 40",
+    "dangerous.button.fill": "Red 50",
+    "dangerous.button.focusRing": "Red 30",
+    "dangerous.button.text": "White",
+    "dangerous.button.border": "Transparent",
+    "dangerous.button.border.@hovered": "Transparent",
+    "dangerous.button.border.@pressed": "Transparent",
+    "dangerous.button.border.@disabled": "Gray 60",
+    "dangerous.button.fill.@disabled": "Gray 10",
+    "dangerous.button.text.@disabled": "Gray 70",
+    "dangerous.button.border.@focused": "Red 20",
+    "dangerous.button.border.@focused.@hovered": "Red 20",
+    "dangerous.button.border.@focused.@pressed": "Red 20",
+    "dangerous.button.fill.@hovered": "Red 40",
+    "dangerous.button.fill.@pressed": "Red 30",
+    "dangerous.button.fill.@focused": "Red 50",
+    "dangerous.button.text.@focused": "White",
+    "dangerous.button.text.@hovered": "White",
+    "dangerous.button.text.@pressed": "White",
+    "dangerous.button.fill.@disabled.@hovered": "Red 40",
+    "dangerous.button.text.@disabled.@hovered": "White",
+    "dangerous.button.fill.@disabled.@pressed": "Red 30",
+    "dangerous.button.text.@disabled.@pressed": "White",
+    "dangerous.button.fill.@focused.@hovered": "Red 40",
+    "dangerous.button.text.@focused.@hovered": "White",
+    "dangerous.button.fill.@focused.@pressed": "Red 30",
+    "dangerous.button.text.@focused.@pressed": "White",
+    "dialog.fill": "Gray 20",
+    "dialog.editor.fill": "Gray 20",
+    "dialog.editor.currentLine.fill": "Gray 50",
+    "dialog.editor.currentLine.fill.@focused": "Gray 50",
+    "dialog.tab.fill": "Transparent",
+    "dialog.tab.border": "Transparent",
+    "dialog.tab.text": "Gray 120",
+    "dialog.tab.border.@hovered": "Transparent",
+    "dialog.tab.border.@selected": "Gray 120",
+    "dialog.tab.fill.@selected": "Transparent",
+    "dialog.tab.fill.@hovered": "Gray 40",
+    "dialog.tab.pane.fill": "Transparent",
+    "dialog.tab.pane.border": "Gray 50",
+    "dialog.tab.text.@hovered": "Gray 120",
+    "dialog.tab.text.@selected": "Gray 120",
+    "dialog.tab.border.@focused.@selected": "Gray 120",
+    "dialog.tab.fill.@focused.@selected": "Transparent",
+    "dialog.tab.text.@focused.@selected": "Gray 120",
+    "diff.added.text": "Green 50",
+    "diff.added.fill": "Green 40",
+    "diff.added.fill.@selected": "Green 40",
+    "diff.deleted.fill": "Red 50",
+    "diff.deleted.fill.@selected": "Red 50",
+    "diff.modified.text": "Blue 100",
+    "diff.modified.fill": "Blue 80",
+    "diff.modified.fill.@selected": "Blue 80",
+    "diff.conflict.text": "#D1A354",
+    "diff.conflict.fill": "Yellow 40",
+    "git.blame.fill": "Yellow 40",
+    "gitBranch.local.text": "Blue 80",
+    "gitBranch.local.fill": "Blue 30",
+    "gitBranch.local.text.@selected": "Blue 80",
+    "gitBranch.local.fill.@selected": "Blue 30",
+    "gitBranch.remote.text": "Red 70",
+    "gitBranch.remote.fill": "Red 20",
+    "gitBranch.remote.text.@selected": "Red 70",
+    "gitBranch.remote.fill.@selected": "Red 20",
+    "dnd.fill": "ffffff20%",
+    "interline.block.fill": "Gray 20",
+    "interline.editor.currentLine.fill": "Gray 50",
+    "interline.editor.currentLine.fill.@focused": "Gray 50",
+    "postline.error.fill": "#742F38",
+    "postline.warning.fill": "#605234",
+    "postline.weakWarning.fill": "#353025",
+    "postline.info.fill": "#134939",
+    "postline.unused.fill": "#5B3271",
+    "rename.postline.border": "Blue 100",
+    "rename.postline.fill": "Blue 10",
+    "rename.postline.text": "Gray 120",
+    "rename.postline.usages.text": "Yellow 60",
+    "editor.fill": "Gray 10",
+    "editor.text": "Gray 120",
+    "editor.braceHighlight.fill": "Blue 30",
+    "editor.caret.fill": "Gray 120",
+    "editor.currentLine.fill": "Gray 20",
+    "editor.currentLine.fill.@focused": "Gray 20",
+    "editor.lineNumber.text": "Gray 70",
+    "editor.lineNumber.text.@selected": "Gray 110",
+    "editor.whitespace.text": "Gray 60",
+    "editor.folding.icon.fill": "Gray 80",
+    "editor.folding.icon.fill.@hovered": "Blue 70",
+    "editor.folding.fill.@hovered": "Blue 10",
+    "editor.folded.text": "Gray 90",
+    "editor.folded.fill": "Gray 50",
+    "statusbar.editor.fill": "Gray 20",
+    "header.fill": "Gray 20",
+    "icon.blue.fill": "Blue 80",
+    "icon.gray.fill": "Gray 80",
+    "icon.green.fill": "Green 40",
+    "icon.orange.fill": "Yellow 40",
+    "icon.red.fill": "Red 60",
+    "icon.button.border": "Transparent",
+    "icon.button.border.@hovered": "Transparent",
+    "icon.button.border.@pressed": "Transparent",
+    "icon.button.fill": "Transparent",
+    "icon.button.focusRing": "Blue 40",
+    "icon.button.text": "Gray 120",
+    "icon.button.text.@disabled": "Gray 70",
+    "icon.button.border.@focused": "Blue 70",
+    "icon.button.border.@focused.@hovered": "Blue 70",
+    "icon.button.border.@focused.@pressed": "Blue 70",
+    "icon.button.fill.@hovered": "Gray 50",
+    "icon.button.fill.@pressed": "Gray 60",
+    "icon.button.fill.@selected": "Blue 30",
+    "icon.button.text.@selected": "Blue 100",
+    "icon.button.border.@disabled": "Transparent",
+    "icon.button.fill.@disabled": "Transparent",
+    "icon.button.fill.@focused": "Transparent",
+    "icon.button.text.@focused": "Gray 120",
+    "icon.button.text.@hovered": "Gray 120",
+    "icon.button.text.@pressed": "Gray 120",
+    "icon.button.border.@selected": "Transparent",
+    "icon.button.border.@selected.@hovered": "Transparent",
+    "icon.button.border.@selected.@pressed": "Transparent",
+    "icon.button.focusRing.@selected": "Blue 40",
+    "icon.button.fill.@selected.@disabled": "Gray 50",
+    "icon.button.text.@selected.@disabled": "Gray 80",
+    "icon.button.border.@selected.@focused": "Blue 70",
+    "icon.button.border.@selected.@focused.@hovered": "Blue 70",
+    "icon.button.border.@selected.@focused.@pressed": "Blue 70",
+    "icon.button.fill.@selected.@focused": "Blue 30",
+    "icon.button.text.@selected.@focused": "Blue 100",
+    "icon.button.fill.@selected.@hovered": "Blue 30",
+    "icon.button.text.@selected.@hovered": "Blue 100",
+    "icon.button.fill.@selected.@pressed": "Blue 40",
+    "icon.button.text.@selected.@pressed": "Blue 100",
+    "icon.button.fill.@disabled.@hovered": "Gray 50",
+    "icon.button.text.@disabled.@hovered": "Gray 120",
+    "icon.button.fill.@disabled.@pressed": "Gray 60",
+    "icon.button.text.@disabled.@pressed": "Gray 120",
+    "icon.button.fill.@focused.@hovered": "Gray 50",
+    "icon.button.text.@focused.@hovered": "Gray 120",
+    "icon.button.fill.@focused.@pressed": "Gray 60",
+    "icon.button.text.@focused.@pressed": "Gray 120",
+    "icon.button.border.@selected.@disabled": "Transparent",
+    "icon.button.fill.@selected.@focused.@hovered": "Blue 30",
+    "icon.button.text.@selected.@focused.@hovered": "Blue 100",
+    "icon.button.fill.@selected.@focused.@pressed": "Blue 30",
+    "icon.button.fill.@selected.@disabled.@hovered": "Gray 50",
+    "icon.button.text.@selected.@disabled.@hovered": "Gray 120",
+    "icon.button.fill.@selected.@disabled.@pressed": "Gray 60",
+    "icon.button.text.@selected.@disabled.@pressed": "Gray 120",
+    "icon.button.text.@selected.@focused.@pressed": "Gray 120",
+    "input.border": "Gray 60",
+    "input.fill": "Gray 20",
+    "input.text": "Gray 120",
+    "input.border.@disabled": "Gray 50",
+    "input.fill.@disabled": "Gray 50",
+    "input.text.@disabled": "Gray 80",
+    "input.border.@error": "Red 60",
+    "input.border.@focused": "Blue 70",
+    "input.caret.fill": "Gray 120",
+    "input.selection.fill": "Blue 40",
+    "input.fill.@error": "Gray 20",
+    "input.text.@error": "Gray 120",
+    "input.fill.@focused": "Gray 20",
+    "input.focusRing.@focused": "Blue 40",
+    "input.text.@focused": "Gray 120",
+    "input.border.@error.@focused": "Red 60",
+    "input.focusRing.@error.@focused": "Red 20",
+    "input.caret.fill.@error": "Gray 120",
+    "input.fill.@error.@focused": "Gray 20",
+    "input.text.@error.@focused": "Gray 120",
+    "input.selection.fill.@error": "Blue 40",
+    "link.text": "Blue 100",
+    "link.focusRing": "Blue 70",
+    "list.cursor.border": "Blue 70",
+    "popup.fill": "Gray 20",
+    "popup.border": "Gray 50",
+    "primary.button.fill": "Blue 70",
+    "primary.button.focusRing": "Blue 50",
+    "primary.button.text": "White",
+    "primary.button.border": "Transparent",
+    "primary.button.border.@hovered": "Transparent",
+    "primary.button.border.@pressed": "Transparent",
+    "primary.button.border.@disabled": "Gray 60",
+    "primary.button.fill.@disabled": "Gray 10",
+    "primary.button.text.@disabled": "Gray 70",
+    "primary.button.border.@focused": "Blue 40",
+    "primary.button.border.@focused.@hovered": "Blue 40",
+    "primary.button.border.@focused.@pressed": "Blue 40",
+    "primary.button.fill.@hovered": "Blue 60",
+    "primary.button.fill.@pressed": "Blue 50",
+    "primary.button.fill.@focused": "Blue 70",
+    "primary.button.text.@hovered": "White",
+    "primary.button.text.@pressed": "White",
+    "primary.button.fill.@disabled.@hovered": "Blue 60",
+    "primary.button.text.@disabled.@hovered": "White",
+    "primary.button.fill.@disabled.@pressed": "Blue 50",
+    "primary.button.text.@disabled.@pressed": "White",
+    "primary.button.fill.@focused.@hovered": "Blue 60",
+    "primary.button.fill.@focused.@pressed": "Blue 50",
+    "progress.fill": "Blue 70",
+    "progress.container.fill": "Gray 60",
+    "progress.fill.@determinate": "Blue 70",
+    "progress.fill.@indeterminate": "Blue 70",
+    "progress.fill.@indeterminate.@gradient": "Blue 110",
+    "progress.fill.@determinate.@gradient": "Blue 70",
+    "scrollbar.fill": "ffffff30%",
+    "scrollbar.fill.@dimmed": "ffffff20%",
+    "scrollbar.fill.@hovered": "ffffff40%",
+    "separator.border": "Gray 50",
+    "mainSplit.separator.border": "Gray 50",
+    "split.separator.border.@hovered": "Blue 70",
+    "simpleToggle.border": "Transparent",
+    "simpleToggle.circle.fill.@disabled": "White",
+    "simpleToggle.circle.fill": "White",
+    "simpleToggle.strip.fill.@disabled.@hovered": "Gray 60",
+    "simpleToggle.strip.fill.@disabled": "Gray 60",
+    "simpleToggle.strip.fill.@hovered": "Blue 70",
+    "simpleToggle.strip.fill": "Blue 70",
+    "match.fill": "Yellow 30",
+    "match.text": "Gray 120",
+    "completion.match.fill": "Transparent",
+    "completion.match.text": "Blue 110",
+    "parameterInfo.match.text": "Blue 110",
+    "tab.border": "Transparent",
+    "tab.fill": "Gray 20",
+    "tab.text": "Gray 120",
+    "tab.fill.@selected": "Gray 10",
+    "tab.fill.@hovered": "Gray 40",
+    "tab.pane.fill": "Gray 20",
+    "tab.pane.border": "Transparent",
+    "tab.border.@hovered": "Transparent",
+    "tab.text.@hovered": "Gray 120",
+    "tab.border.@selected": "Transparent",
+    "tab.text.@selected": "Gray 120",
+    "tab.border.@focused.@selected": "Gray 120",
+    "tab.fill.@focused.@selected": "Gray 10",
+    "tab.text.@focused.@selected": "Gray 120",
+    "terminal.ansiBlack.fill": "Gray 10",
+    "terminal.ansiBlack.text": "Gray 120",
+    "terminal.ansiBlue.fill": "#405C80",
+    "terminal.ansiBlue.text": "#1D6BCC",
+    "terminal.ansiBrightBlack.fill": "#424242",
+    "terminal.ansiBrightBlack.text": "#595959",
+    "terminal.ansiBrightBlue.fill": "#314966",
+    "terminal.ansiBrightBlue.text": "#0067E6",
+    "terminal.ansiBrightCyan.fill": "#2F5F66",
+    "terminal.ansiBrightCyan.text": "#00BAD6",
+    "terminal.ansiBrightGreen.fill": "#2D6654",
+    "terminal.ansiBrightGreen.text": "#009E6F",
+    "terminal.ansiBrightMagenta.fill": "#4E3166",
+    "terminal.ansiBrightMagenta.text": "#EB4DDE",
+    "terminal.ansiBrightRed.fill": "#66333A",
+    "terminal.ansiBrightRed.text": "#C7001B",
+    "terminal.ansiBrightWhite.fill": "Gray 10",
+    "terminal.ansiBrightWhite.text": "Gray 10",
+    "terminal.ansiBrightYellow.fill": "#665234",
+    "terminal.ansiBrightYellow.text": "#E09119",
+    "terminal.ansiCyan.fill": "#477880",
+    "terminal.ansiCyan.text": "#2CCCE6",
+    "terminal.ansiGreen.fill": "#437A6A",
+    "terminal.ansiGreen.text": "Cyan",
+    "terminal.ansiMagenta.fill": "#6B5280",
+    "terminal.ansiMagenta.text": "#EB83E2",
+    "terminal.ansiRed.fill": "#804A52",
+    "terminal.ansiRed.text": "#C73649",
+    "terminal.ansiWhite.fill": "Gray 90",
+    "terminal.ansiWhite.text": "Gray 20",
+    "terminal.ansiYellow.fill": "#80653E",
+    "terminal.ansiYellow.text": "#FAD075",
+    "toggle.border": "Transparent",
+    "toggle.border.@hovered": "Transparent",
+    "toggle.border.@pressed": "Transparent",
+    "toggle.fill": "Gray 60",
+    "toggle.focusRing": "Blue 40",
+    "toggle.text": "Gray 120",
+    "toggle.fill.@disabled": "Transparent",
+    "toggle.text.@disabled": "Gray 70",
+    "toggle.border.@focused": "Blue 80",
+    "toggle.border.@focused.@hovered": "Blue 80",
+    "toggle.border.@focused.@pressed": "Blue 80",
+    "toggle.fill.@hovered": "Gray 50",
+    "toggle.fill.@pressed": "Gray 40",
+    "toggle.fill.@selected": "Blue 70",
+    "toggle.text.@selected": "White",
+    "toggle.focusRing.@selected": "Blue 50",
+    "toggle.border.@disabled": "Transparent",
+    "toggle.fill.@focused": "Gray 60",
+    "toggle.text.@focused": "Gray 120",
+    "toggle.text.@hovered": "Gray 120",
+    "toggle.text.@pressed": "Gray 120",
+    "toggle.border.@selected": "Transparent",
+    "toggle.border.@selected.@hovered": "Transparent",
+    "toggle.border.@selected.@pressed": "Transparent",
+    "toggle.fill.@focused.@hovered": "Gray 50",
+    "toggle.fill.@focused.@pressed": "Gray 40",
+    "toggle.fill.@selected.@disabled": "Gray 40",
+    "toggle.text.@selected.@disabled": "Gray 70",
+    "toggle.border.@selected.@focused": "Blue 40",
+    "toggle.border.@selected.@focused.@hovered": "Blue 40",
+    "toggle.border.@selected.@focused.@pressed": "Blue 40",
+    "toggle.fill.@selected.@focused": "Blue 70",
+    "toggle.text.@selected.@focused": "White",
+    "toggle.fill.@selected.@hovered": "Blue 60",
+    "toggle.text.@selected.@hovered": "White",
+    "toggle.fill.@selected.@pressed": "Blue 70",
+    "toggle.text.@selected.@pressed": "White",
+    "toggle.fill.@disabled.@hovered": "Gray 40",
+    "toggle.text.@disabled.@hovered": "Gray 120",
+    "toggle.fill.@disabled.@pressed": "Gray 30",
+    "toggle.text.@disabled.@pressed": "Gray 120",
+    "toggle.text.@focused.@hovered": "Gray 120",
+    "toggle.text.@focused.@pressed": "Gray 120",
+    "toggle.border.@selected.@disabled": "Transparent",
+    "toggle.fill.@selected.@focused.@hovered": "Blue 60",
+    "toggle.text.@selected.@focused.@hovered": "White",
+    "toggle.fill.@selected.@focused.@pressed": "Blue 70",
+    "toggle.text.@selected.@focused.@pressed": "White",
+    "toggle.fill.@selected.@disabled.@hovered": "Gray 40",
+    "toggle.text.@selected.@disabled.@hovered": "Gray 120",
+    "toggle.fill.@selected.@disabled.@pressed": "Gray 30",
+    "toggle.text.@selected.@disabled.@pressed": "Gray 120",
+    "tool.fill": "Gray 10",
+    "tooltip.fill": "Gray 40",
+    "tooltip.border": "Gray 60",
+    "tooltip.text": "Gray 120",
+    "tree.cursor.border": "Blue 70",
+    "tree.border.@focused": "Blue 70",
+    "windows.close.button.fill.@hovered": "#C42B1C",
+    "windows.close.button.text.@hovered": "White",
+    "windows.close.button.fill.@pressed": "#C73C31",
+    "windows.close.button.text.@pressed": "#EDBEBB"
+  },
+  "text-attributes": {
+    "editor.text.scheme": {
+      "fgColor": "Gray 120",
+      "layer": 1,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "editor.text.composable": {
+      "decoration": {
+        "color": "Gray 120",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "editor.selection": {
+      "bgColor": "Blue 30",
+      "layer": 2000,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "editor.search.results": {
+      "bgColor": "Yellow 30",
+      "stripeColor": "#D49550",
+      "layer": 100,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "editor.rename.entries": {
+      "bgColor": "#014744",
+      "layer": 300,
+      "fullLine": false,
+      "showEmptyIntervals": true
+    },
+    "editor.rename.current": {
+      "showEmptyIntervals": true,
+      "fullLine": false,
+      "layer": 300,
+      "decoration": {
+        "color": "Blue 80",
+        "style": "BORDER"
+      }
+    },
+    "comment": {
+      "fgColor": "Gray 90",
+      "layer": 5,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "comment.todo": {
+      "fgColor": "#81DE8A",
+      "layer": 10,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "comment.parameter": {
+      "fgColor": "Cyan Dark",
+      "layer": 5,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "comment.parameter.value": {
+      "fgColor": "Pink",
+      "layer": 5,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "link": {},
+    "link.always.visible": {
+      "decoration": {
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "link.hovered": {
+      "fgColor": "Blue 100",
+      "layer": 1000,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Blue 100",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "keyword": {
+      "fgColor": "#c678dd",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "keyword.typeModifier": {
+      "fgColor": "#c678dd",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "metadata": {
+      "fgColor": "Lime",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "number": {
+      "fgColor": "Yellow",
+      "layer": 10,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "boolean": {
+      "fgColor": "Yellow",
+      "layer": 10,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string": {
+      "fgColor": "Lime",
+      "layer": 15,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.binary": {
+      "fgColor": "Lime",
+      "layer": 15
+    },
+    "string.escape": {
+      "fgColor": "Cyan",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.escape.unicode": {
+      "fgColor": "Yellow",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.escape.alternative": {
+      "fgColor": "Violet",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.formatItem": {
+      "fgColor": "Yellow",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.regexp": {
+      "fgColor": "Cyan",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier": {
+      "fgColor": "Gray 120",
+      "layer": 10,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.this": {
+      "fgColor": "Purple 10",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.this.mutable": {
+      "fgColor": "#CC7C8A",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#CC7C8A",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "identifier.underCaret": {
+      "bgColor": "Gray 50",
+      "stripeColor": "#27706C",
+      "layer": 200,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.constant": {
+      "fgColor": "Purple 10",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.constant.predefined": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.variable.local": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.variable.local.reassigned": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Gray 70",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "identifier.parameter": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.function.declaration": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "semiBold": true
+      }
+    },
+    "identifier.function.declaration.js": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "semiBold": true
+      }
+    },
+    "identifier.function.call": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.function.call.js": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.function.call.suspend": {
+      "fgColor": "Orange",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.function.call.package": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.method.static": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.method.static.js": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.type": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.field": {
+      "fgColor": "Red 70",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.field.static": {
+      "fgColor": "Red 70",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.interface": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.type.class": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.type.enum": {
+      "fgColor": "#d19a66",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.type.struct": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.type.valueType": {
+      "fgColor": "Blue Light",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.typeParameter": {
+      "fgColor": "Blue Light",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.namedArgument": {
+      "fgColor": "Blue Light",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.other": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "attributeName.html": {
+      "fgColor": "#d19a66",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "attributeValue.html": {
+      "fgColor": "#98c379",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "entityReference.html": {
+      "fgColor": "Orange",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "tag.html": {
+      "fgColor": "Gray 90",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "tagName.html": {
+      "fgColor": "Red 70",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "tagName.custom.html": {
+      "fgColor": "Orange",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "attributeName.css": {
+      "fgColor": "#d19a66",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "hex.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.css": {
+      "fgColor": "Red 70",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.function.css": {
+      "fgColor": "Purple 10",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.variable.css": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "interpolation.css": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "jsCodeDelimiter.css": {
+      "fgColor": "Pink",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "jsCodeInjection.css": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "keyword.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "keyword.extend.css": {
+      "fgColor": "Lime",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "keyword.global.css": {
+      "fgColor": "Lime",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "keyword.important.css": {
+      "fgColor": "#c678dd",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "mixin.css": {
+      "fgColor": "#c678dd",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "number.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "number.unit.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "propertyName.css": {
+      "fgColor": "#abb2bf",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "propertyValue.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "punctuation.css": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "selector.css": {
+      "fgColor": "Purple 10",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "selector.id.css": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "selector.class.css": {
+      "fgColor": "Yellow",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "selector.pseudo.css": {
+      "fgColor": "Violet",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "selector.tag.css": {
+      "fgColor": "Violet",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "string.css": {
+      "fgColor": "Pink",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "url.css": {
+      "fgColor": "Blue Light",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#546267",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "markup.heading": {
+      "fgColor": "Cyan",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "bold": true
+      }
+    },
+    "markup.bold": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "bold": true
+      }
+    },
+    "markup.italic": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "markup.code.block": {
+      "fgColor": "#EB83E2",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "markup.href": {
+      "fgColor": "Pink",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "fontModifier": {
+        "italic": true
+      },
+      "decoration": {
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "punctuation": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "punctuation.operator": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "snippet": {
+      "showEmptyIntervals": true,
+      "fullLine": false,
+      "layer": 2001,
+      "borderColor": "Gray 90"
+    },
+    "snippet.selected": {
+      "showEmptyIntervals": true,
+      "fullLine": false,
+      "layer": 2001,
+      "borderColor": "Blue 80"
+    },
+    "debug.currentFrame": {
+      "bgColor": "#074747",
+      "layer": -68,
+      "fullLine": true,
+      "showEmptyIntervals": false
+    },
+    "diff.added": {
+      "bgColor": "#122923",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false
+    },
+    "diff.added.word": {
+      "bgColor": "#193B32",
+      "layer": -60,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "diff.added.withBorder": {
+      "bgColor": "#122923",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Green 20",
+        "style": "BORDER"
+      }
+    },
+    "diff.added.empty": {
+      "bgColor": "Green 30",
+      "layer": -60,
+      "fullLine": false,
+      "showEmptyIntervals": true
+    },
+    "diff.deleted": {
+      "bgColor": "#331B20",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false
+    },
+    "diff.deleted.word": {
+      "bgColor": "#4D2A31",
+      "layer": -60,
+      "fullLine": false,
+      "showEmptyIntervals": true
+    },
+    "diff.deleted.withBorder": {
+      "bgColor": "#331B20",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#572B34",
+        "style": "BORDER"
+      }
+    },
+    "diff.deleted.empty": {
+      "bgColor": "#B24052",
+      "layer": -60,
+      "fullLine": false,
+      "showEmptyIntervals": true
+    },
+    "diff.modified": {
+      "bgColor": "#182538",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false
+    },
+    "diff.modified.word": {
+      "bgColor": "#1F3657",
+      "layer": -60,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "diff.modified.withBorder": {
+      "bgColor": "#182538",
+      "layer": -69,
+      "fullLine": true,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Blue 40",
+        "style": "BORDER"
+      }
+    },
+    "diff.conflict.withBorder": {
+      "bgColor": "#302518",
+      "layer": -68,
+      "fullLine": true,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Yellow 20",
+        "style": "BORDER"
+      }
+    },
+    "problem.error": {
+      "layer": 70,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#FF5269",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 2
+      }
+    },
+    "problem.error.badCharacter": {
+      "layer": 100,
+      "fullLine": false,
+      "showEmptyIntervals": true,
+      "decoration": {
+        "color": "#FF5269",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 2
+      }
+    },
+    "problem.warning": {
+      "layer": 60,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#FACB66",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 2
+      }
+    },
+    "problem.warning.weak": {
+      "layer": 40,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#695937",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 2
+      }
+    },
+    "problem.deprecated": {
+      "layer": 30,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "Gray 120",
+        "style": "SOLID",
+        "position": "THROUGH",
+        "thickness": 1
+      }
+    },
+    "problem.info": {
+      "layer": 50,
+      "fullLine": false,
+      "showEmptyIntervals": false,
+      "decoration": {
+        "color": "#A366C4",
+        "style": "SOLID",
+        "position": "UNDER",
+        "thickness": 1
+      }
+    },
+    "problem.unknown": {
+      "layer": 50,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "problem.unused": {
+      "fgColor": "Gray 80",
+      "layer": 60
+    },
+    "transparent": {},
+    "comment.buildConstraint.go": {
+      "fgColor": "Gray 120",
+      "layer": 5,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.methodReceiver.go": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.package.go": {
+      "fgColor": "Lime",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.typeDeclaration.go": {
+      "fgColor": "Gray 120",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.typeReference.go": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.variable.shadowing.go": {
+      "fgColor": "Orange",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "metadata.structTag.arbitraryText.go": {
+      "fgColor": "Gray 90",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "metadata.structTag.key.go": {
+      "fgColor": "Gray 120",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "metadata.structTag.value.go": {
+      "fgColor": "Pink",
+      "layer": 25,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.anchor.yaml": {
+      "fgColor": "Lime",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "identifier.alias.yaml": {
+      "fgColor": "Orange",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "punctuation.operator.merge.yaml": {
+      "fgColor": "#d19a66",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "schema.yaml": {
+      "fgColor": "Coral",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "key.yaml": {
+      "fgColor": "Cyan",
+      "layer": 20,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "value.yaml": {
+      "fgColor": "Violet",
+      "layer": 2,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    },
+    "ai.generated": {
+      "bgColor": "#242142",
+      "layer": 10,
+      "fullLine": false,
+      "showEmptyIntervals": false
+    }
+  },
+  "palette": {
+    "White": "#FFFFFF",
+    "Gray 120": "#abb2bf",
+    "Gray 110": "#C2C2C2",
+    "Gray 100": "#A0A0A0",
+    "Gray 90": "#5c6370",
+    "Gray 80": "#767676",
+    "Gray 70": "#5D5D5D",
+    "Gray 60": "#484848",
+    "Gray 50": "#383838",
+    "Gray 40": "#333333",
+    "Gray 30": "#2D2D2D",
+    "Gray 20": "#21252b",
+    "Gray 10": "#282c34",
+    "Black": "#000000",
+    "Blue 110": "#6DAAF7",
+    "Blue 100": "#4D9BF8",
+    "Blue 90": "#3691F9",
+    "Blue 80": "#1A85F6",
+    "Blue 70": "#0273EB",
+    "Blue 60": "#0C6DDD",
+    "Blue 50": "#195EB5",
+    "Blue 40": "#194176",
+    "Blue 30": "#163764",
+    "Blue 20": "#132C4F",
+    "Blue 10": "#0B1B32",
+    "Red 80": "#EC7388",
+    "Red 70": "#e06c75",
+    "Red 60": "#D93953",
+    "Red 50": "#CE364D",
+    "Red 40": "#C03248",
+    "Red 30": "#A72A3F",
+    "Red 20": "#761B2D",
+    "Red 10": "#390813",
+    "Green 50": "#4CA988",
+    "Green 40": "#3EA17F",
+    "Green 30": "#028764",
+    "Green 20": "#134939",
+    "Green 10": "#081F19",
+    "Yellow 60": "#F8AB17",
+    "Yellow 50": "#E1971B",
+    "Yellow 40": "#B5791F",
+    "Yellow 30": "#7C511A",
+    "Yellow 20": "#5A3A14",
+    "Yellow 10": "#281806",
+    "Purple 20": "#C07BF3",
+    "Purple 10": "#c678dd",
+    "Blue": "#61afef",
+    "Blue Light": "#528bff",
+    "Coral": "#CC7C8A",
+    "Cyan": "#82D2CE",
+    "Cyan Dark": "#779E9E",
+    "Lime": "#98c379",
+    "Orange": "#d19a66",
+    "Pink": "#E394DC",
+    "Violet": "#AF9CFF",
+    "Violet 50": "#958cf7",
+    "Violet 40": "#6d60f4",
+    "Violet 30": "#4d40d8",
+    "Violet 20": "#3a3098",
+    "Violet 10": "#282360",
+    "Yellow": "#d19a66",
+    "Transparent": "ffffff0%"
+  }
+}
