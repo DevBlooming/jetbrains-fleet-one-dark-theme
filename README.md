@@ -31,7 +31,7 @@ To install the One Dark theme in JetBrains Fleet, follow these steps:
 
 ## Feedback
 
-If you have any issues or suggestions for improvements to the One Dark color scheme for JetBrains IDEs, please open an issue.
+If you have any issues or suggestions, please open an issue.
 
 ## License
 
