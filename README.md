@@ -35,6 +35,6 @@ If you have any issues or suggestions for improvements to the One Dark color sch
 
 ## License
 
-This color scheme is licensed under the MIT License. You are free to use, modify, and distribute this theme as you see fit.
+This color scheme is licensed under the MIT License.
 
 **Enjoy coding with the One Dark color scheme! 🥳**
