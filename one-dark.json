@@ -486,6 +486,18 @@
         "style": "BORDER"
       }
     },
+    "editor.indent.guide": {
+      "fgColor": "Gray 70",
+      "decoration": {
+        "style": "SOLID"
+      }
+    },
+    "editor.indent.guide.current": {
+      "fgColor": "Gray 100",
+      "decoration": {
+        "style": "SOLID"
+      }
+    },
     "comment": {
       "fgColor": "Gray 90",
       "layer": 5,
@@ -601,7 +613,7 @@
       "showEmptyIntervals": false
     },
     "identifier": {
-      "fgColor": "Gray 120",
+      "fgColor": "Red 70",
       "layer": 10,
       "fullLine": false,
       "showEmptyIntervals": false
