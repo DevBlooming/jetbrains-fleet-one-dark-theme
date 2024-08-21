@@ -19,11 +19,13 @@ To install the One Dark theme in JetBrains Fleet, follow these steps:
 
    **Windows:** `C:\users\<USER>\AppData\Roaming\JetBrains\Fleet\themes`
 
-   **Linux:** `/home/<USER>/.fleet/themes/`
+   **Linux:** `/home/<USER>/.config/JetBrains/Fleet/themes/`
 
-3. Open JetBrains Fleet.
-4. Go to Settings > Themes and pick `One Dark` from the list
-5. Enjoy your colors!
+   **macOS:** `~/Library/Application Support/Jetbrains/Fleet/themes/`
+
+4. Open JetBrains Fleet.
+5. Go to Settings > Themes and pick `One Dark` from the list
+6. Enjoy your colors!
 
 ## Preview
 
