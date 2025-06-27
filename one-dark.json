@@ -486,13 +486,13 @@
         "style": "BORDER"
       }
     },
-    "editor.indent.guide": {
+    "editor.indentGuide": {
       "fgColor": "Gray 70",
       "decoration": {
         "style": "SOLID"
       }
     },
-    "editor.indent.guide.current": {
+    "editor.indentGuide.current": {
       "fgColor": "Gray 100",
       "decoration": {
         "style": "SOLID"
